@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT SensorProblem (Sensors,Hotspots)>
+<!ELEMENT Sensors (Sensor+)>
+<!ELEMENT Sensor (#PCDATA)>
+<!ELEMENT Hotspots (Hotspot*)>
+<!ELEMENT Hotspot (#PCDATA)>
+
+<!ATTLIST SensorProblem areaWidth CDATA #REQUIRED>
+<!ATTLIST SensorProblem areaHeight CDATA #REQUIRED>
+<!ATTLIST Sensors radius CDATA #REQUIRED>
+<!ATTLIST Sensor x CDATA #REQUIRED>
+<!ATTLIST Sensor y CDATA #REQUIRED>
+<!ATTLIST Hotspots kCovered CDATA #REQUIRED>
+<!ATTLIST Hotspot x CDATA #REQUIRED>
+<!ATTLIST Hotspot y CDATA #REQUIRED>

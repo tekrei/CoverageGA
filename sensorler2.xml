@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sensor SYSTEM "src/cga/data/sensor.dtd">
+<SensorProblem areaWidth="400" areaHeight="400">
+	<Sensors radius="50">
+		<Sensor x="400" y="400" />
+		<Sensor x="200" y="200" />
+		<Sensor x="100" y="100" />
+		<Sensor x="400" y="400" />
+		<Sensor x="200" y="200" />
+		<Sensor x="100" y="100" />
+		<Sensor x="400" y="400" />
+		<Sensor x="200" y="200" />
+		<Sensor x="100" y="100" />
+		<Sensor x="150" y="150" />
+		<Sensor x="150" y="150" />
+		<Sensor x="150" y="150" />
+	</Sensors>
+	<Hotspots kCovered="1">
+		<Hotspot x="400" y="400" />
+		<Hotspot x="200" y="200" />
+		<Hotspot x="100" y="100" />
+	</Hotspots>
+</SensorProblem>

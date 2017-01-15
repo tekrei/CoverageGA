@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sensor SYSTEM "src/cga/data/sensor.dtd">
+<SensorProblem areaWidth="400" areaHeight="400">
+	<Sensors radius="50">
+		<!-- -->
+		<Sensor x="50" y="50" />
+		<Sensor x="50" y="300" />
+		<Sensor x="300" y="50" />
+		<Sensor x="300" y="300" />
+		<Sensor x="50" y="50" />
+		<Sensor x="50" y="300" />
+		<Sensor x="300" y="50" />
+		<Sensor x="300" y="300" />
+
+		<!-- ust taraf -->
+		<Sensor x="100" y="50" />
+		<Sensor x="200" y="50" />
+		<Sensor x="300" y="50" />
+		<!-- sol taraf -->
+		<Sensor x="50" y="100" />
+		<Sensor x="50" y="200" />
+		<Sensor x="50" y="300" />
+		<!-- sag taraf -->
+		<Sensor x="300" y="100" />
+		<Sensor x="300" y="200" />
+		<Sensor x="300" y="300" />
+		<!-- alt taraf -->
+		<Sensor x="100" y="300" />
+		<Sensor x="200" y="300" />
+		<Sensor x="300" y="300" />
+
+	</Sensors>
+	<Hotspots kCovered="2">
+		<Hotspot x="50" y="50" />
+		<Hotspot x="50" y="300" />
+		<Hotspot x="300" y="50" />
+		<Hotspot x="300" y="300" />
+	</Hotspots>
+</SensorProblem>
